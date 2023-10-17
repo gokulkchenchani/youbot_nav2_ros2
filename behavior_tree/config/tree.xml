@@ -1,0 +1,12 @@
+<!-- Behavior tree that sequentially navigates locations naively -->
+<root main_tree_to_execute = "MainTree" >
+  <BehaviorTree ID="MainTree">
+    <Sequence name="sequence">
+      <GoToPose name="go_to_location1" loc="Goal_1" />
+      <GoToPose name="go_to_location2" loc="Goal_2" />
+      <GoToPose name="go_to_location3" loc="Goal_3" />
+      <GoToPose name="go_to_location4" loc="Goal_4" />
+      <GoToPose name="go_to_location5" loc="Goal_5" />
+    </Sequence>
+  </BehaviorTree>
+</root>

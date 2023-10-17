@@ -1,0 +1,5 @@
+<library path="barriertape_costmap_plugin_core">
+  <class name="barriertape_costmap_plugin/BarrierLayer" type="barriertape_costmap_plugin::BarrierLayer" base_class_type="nav2_costmap_2d::Layer">
+    <description>This is custom costmap plugin for barrier tape implementation</description>
+  </class>
+</library>
